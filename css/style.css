@@ -1,0 +1,65 @@
+
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Poppins', sans-serif, Arial;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+.frame {
+  border: solid grey 2px;
+  width: 150px;
+  height: 430px;
+  border-radius: 14%;
+  margin: auto;
+}
+
+.pipe {
+  border: solid grey 2px;
+  width: 25px;
+  height: 400px;
+  margin: auto;
+}
+
+.stand {
+  border: solid grey 2px;
+  width: 170px;
+  height: 30px;
+  border-top-left-radius: 14%;
+  border-top-right-radius: 14%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.block {
+  border: solid white 2px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: grey;
+  margin: auto;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  /* calculates padding, margin and border so everything fits exactly into the defined size */
+  box-sizing: border-box;
+}
+
+.red:hover {
+  background-color: red;
+  box-shadow: 0 0 30px 10px red;
+}
+
+.yellow:hover {
+  background-color: yellow;
+  box-shadow: 0 0 30px 10px yellow;
+}
+
+.green:hover {
+  background-color: green;
+  box-shadow: 0 0 30px 10px green;
+}
