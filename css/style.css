@@ -15,7 +15,7 @@ h1 {
   border: solid grey 2px;
   width: 150px;
   height: 430px;
-  border-radius: 14%;
+  border-radius: 8px;
   margin: auto;
 }
 
@@ -36,7 +36,7 @@ h1 {
   margin-bottom: 2rem;
 }
 
-.block {
+.light {
   border: solid white 2px;
   width: 100px;
   height: 100px;
@@ -52,21 +52,22 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0 -10px grey;
 
 }
 
 
 .red:hover {
   background-color: red;
-  box-shadow: 0 0 30px 10px red;
+  box-shadow: 0 0 30px 10px red, 0 -10px grey;
 }
 
 .yellow:hover {
   background-color: yellow;
-  box-shadow: 0 0 30px 10px yellow;
+  box-shadow: 0 0 30px 10px yellow, 0 -10px grey;
 }
 
 .green:hover {
   background-color: green;
-  box-shadow: 0 0 30px 10px green;
+  box-shadow: 0 0 30px 10px green,  0 -10px grey;
 }
